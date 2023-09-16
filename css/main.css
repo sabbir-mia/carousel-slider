@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 26px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+#testimonial {
+    background-color: #9400FF;
+
+}
+
+.section-padding {
+    padding: 60px;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+}
+
+.img-thumb {
+    margin: 15px;
+    text-align: center;
+}
+
+.img-thumb img {
+    border-radius: 100%;
+    padding: 5px;
+    display: inline-block;
+    width: auto !important;
+    height: 80px;
+    margin: auto;
+}
+
+.info .name {
+    font-size: 1.3em;
+}
+.info .designation {
+    font-size: 1.1em;
+}
+
+.content .description p {
+    font-size: .8em;
+    line-height: 1.8em;
+}
+#testimonial .owl-theme .owl-dots .owl-dot span {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+#testimonial .owl-theme .owl-dots .owl-dot.active span,
+#testimonial .owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #9400FF;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+}
